@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678480EE2A18671D004E01C3 /* cartunesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678480ED2A18671D004E01C3 /* cartunesApp.swift */; };
+		678480F02A18671D004E01C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678480EF2A18671D004E01C3 /* ContentView.swift */; };
+		678480F22A18671E004E01C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678480F12A18671E004E01C3 /* Assets.xcassets */; };
+		678480F52A18671E004E01C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678480F42A18671E004E01C3 /* Preview Assets.xcassets */; };
+		678481002A18671E004E01C3 /* cartunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678480FF2A18671E004E01C3 /* cartunesTests.swift */; };
+		6784810A2A18671E004E01C3 /* cartunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678481092A18671E004E01C3 /* cartunesUITests.swift */; };
+		6784810C2A18671E004E01C3 /* cartunesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6784810B2A18671E004E01C3 /* cartunesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		678480FC2A18671E004E01C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678480E22A18671D004E01C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678480E92A18671D004E01C3;
+			remoteInfo = cartunes;
+		};
+		678481062A18671E004E01C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678480E22A18671D004E01C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678480E92A18671D004E01C3;
+			remoteInfo = cartunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		678480EA2A18671D004E01C3 /* cartunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cartunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		678480ED2A18671D004E01C3 /* cartunesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartunesApp.swift; sourceTree = "<group>"; };
+		678480EF2A18671D004E01C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		678480F12A18671E004E01C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		678480F42A18671E004E01C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		678480F62A18671E004E01C3 /* cartunes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cartunes.entitlements; sourceTree = "<group>"; };
+		678480FB2A18671E004E01C3 /* cartunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cartunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678480FF2A18671E004E01C3 /* cartunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartunesTests.swift; sourceTree = "<group>"; };
+		678481052A18671E004E01C3 /* cartunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cartunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678481092A18671E004E01C3 /* cartunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartunesUITests.swift; sourceTree = "<group>"; };
+		6784810B2A18671E004E01C3 /* cartunesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartunesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		678480E72A18671D004E01C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678480F82A18671E004E01C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678481022A18671E004E01C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678480E12A18671D004E01C3 = {
+			isa = PBXGroup;
+			children = (
+				678480EC2A18671D004E01C3 /* cartunes */,
+				678480FE2A18671E004E01C3 /* cartunesTests */,
+				678481082A18671E004E01C3 /* cartunesUITests */,
+				678480EB2A18671D004E01C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		678480EB2A18671D004E01C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				678480EA2A18671D004E01C3 /* cartunes.app */,
+				678480FB2A18671E004E01C3 /* cartunesTests.xctest */,
+				678481052A18671E004E01C3 /* cartunesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		678480EC2A18671D004E01C3 /* cartunes */ = {
+			isa = PBXGroup;
+			children = (
+				678480ED2A18671D004E01C3 /* cartunesApp.swift */,
+				678480EF2A18671D004E01C3 /* ContentView.swift */,
+				678480F12A18671E004E01C3 /* Assets.xcassets */,
+				678480F62A18671E004E01C3 /* cartunes.entitlements */,
+				678480F32A18671E004E01C3 /* Preview Content */,
+			);
+			path = cartunes;
+			sourceTree = "<group>";
+		};
+		678480F32A18671E004E01C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				678480F42A18671E004E01C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		678480FE2A18671E004E01C3 /* cartunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				678480FF2A18671E004E01C3 /* cartunesTests.swift */,
+			);
+			path = cartunesTests;
+			sourceTree = "<group>";
+		};
+		678481082A18671E004E01C3 /* cartunesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				678481092A18671E004E01C3 /* cartunesUITests.swift */,
+				6784810B2A18671E004E01C3 /* cartunesUITestsLaunchTests.swift */,
+			);
+			path = cartunesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		678480E92A18671D004E01C3 /* cartunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6784810F2A18671E004E01C3 /* Build configuration list for PBXNativeTarget "cartunes" */;
+			buildPhases = (
+				678480E62A18671D004E01C3 /* Sources */,
+				678480E72A18671D004E01C3 /* Frameworks */,
+				678480E82A18671D004E01C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cartunes;
+			productName = cartunes;
+			productReference = 678480EA2A18671D004E01C3 /* cartunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		678480FA2A18671E004E01C3 /* cartunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678481122A18671E004E01C3 /* Build configuration list for PBXNativeTarget "cartunesTests" */;
+			buildPhases = (
+				678480F72A18671E004E01C3 /* Sources */,
+				678480F82A18671E004E01C3 /* Frameworks */,
+				678480F92A18671E004E01C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678480FD2A18671E004E01C3 /* PBXTargetDependency */,
+			);
+			name = cartunesTests;
+			productName = cartunesTests;
+			productReference = 678480FB2A18671E004E01C3 /* cartunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		678481042A18671E004E01C3 /* cartunesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678481152A18671E004E01C3 /* Build configuration list for PBXNativeTarget "cartunesUITests" */;
+			buildPhases = (
+				678481012A18671E004E01C3 /* Sources */,
+				678481022A18671E004E01C3 /* Frameworks */,
+				678481032A18671E004E01C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678481072A18671E004E01C3 /* PBXTargetDependency */,
+			);
+			name = cartunesUITests;
+			productName = cartunesUITests;
+			productReference = 678481052A18671E004E01C3 /* cartunesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678480E22A18671D004E01C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					678480E92A18671D004E01C3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					678480FA2A18671E004E01C3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 678480E92A18671D004E01C3;
+					};
+					678481042A18671E004E01C3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 678480E92A18671D004E01C3;
+					};
+				};
+			};
+			buildConfigurationList = 678480E52A18671D004E01C3 /* Build configuration list for PBXProject "cartunes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678480E12A18671D004E01C3;
+			productRefGroup = 678480EB2A18671D004E01C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678480E92A18671D004E01C3 /* cartunes */,
+				678480FA2A18671E004E01C3 /* cartunesTests */,
+				678481042A18671E004E01C3 /* cartunesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678480E82A18671D004E01C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678480F52A18671E004E01C3 /* Preview Assets.xcassets in Resources */,
+				678480F22A18671E004E01C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678480F92A18671E004E01C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678481032A18671E004E01C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678480E62A18671D004E01C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678480F02A18671D004E01C3 /* ContentView.swift in Sources */,
+				678480EE2A18671D004E01C3 /* cartunesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678480F72A18671E004E01C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678481002A18671E004E01C3 /* cartunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678481012A18671E004E01C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6784810C2A18671E004E01C3 /* cartunesUITestsLaunchTests.swift in Sources */,
+				6784810A2A18671E004E01C3 /* cartunesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		678480FD2A18671E004E01C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678480E92A18671D004E01C3 /* cartunes */;
+			targetProxy = 678480FC2A18671E004E01C3 /* PBXContainerItemProxy */;
+		};
+		678481072A18671E004E01C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678480E92A18671D004E01C3 /* cartunes */;
+			targetProxy = 678481062A18671E004E01C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6784810D2A18671E004E01C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6784810E2A18671E004E01C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		678481102A18671E004E01C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cartunes/cartunes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cartunes/Preview Content\"";
+				DEVELOPMENT_TEAM = NPFCQ5HJ7G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recursivepenguin.cartunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		678481112A18671E004E01C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cartunes/cartunes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cartunes/Preview Content\"";
+				DEVELOPMENT_TEAM = NPFCQ5HJ7G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recursivepenguin.cartunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		678481132A18671E004E01C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPFCQ5HJ7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recursivepenguin.cartunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cartunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cartunes";
+			};
+			name = Debug;
+		};
+		678481142A18671E004E01C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPFCQ5HJ7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recursivepenguin.cartunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cartunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cartunes";
+			};
+			name = Release;
+		};
+		678481162A18671E004E01C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPFCQ5HJ7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recursivepenguin.cartunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = cartunes;
+			};
+			name = Debug;
+		};
+		678481172A18671E004E01C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPFCQ5HJ7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recursivepenguin.cartunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = cartunes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678480E52A18671D004E01C3 /* Build configuration list for PBXProject "cartunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6784810D2A18671E004E01C3 /* Debug */,
+				6784810E2A18671E004E01C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6784810F2A18671E004E01C3 /* Build configuration list for PBXNativeTarget "cartunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678481102A18671E004E01C3 /* Debug */,
+				678481112A18671E004E01C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678481122A18671E004E01C3 /* Build configuration list for PBXNativeTarget "cartunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678481132A18671E004E01C3 /* Debug */,
+				678481142A18671E004E01C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678481152A18671E004E01C3 /* Build configuration list for PBXNativeTarget "cartunesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678481162A18671E004E01C3 /* Debug */,
+				678481172A18671E004E01C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678480E22A18671D004E01C3 /* Project object */;
+}

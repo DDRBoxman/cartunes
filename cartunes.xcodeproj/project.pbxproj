@@ -14,6 +14,10 @@
 		678481002A18671E004E01C3 /* cartunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678480FF2A18671E004E01C3 /* cartunesTests.swift */; };
 		6784810A2A18671E004E01C3 /* cartunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678481092A18671E004E01C3 /* cartunesUITests.swift */; };
 		6784810C2A18671E004E01C3 /* cartunesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6784810B2A18671E004E01C3 /* cartunesUITestsLaunchTests.swift */; };
+		678481192A186795004E01C3 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678481182A186795004E01C3 /* BluetoothManager.swift */; };
+		6784811B2A19A884004E01C3 /* CarThingSDP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6784811A2A19A884004E01C3 /* CarThingSDP.plist */; };
+		6784811E2A1AFE77004E01C3 /* SwiftMsgPack in Frameworks */ = {isa = PBXBuildFile; productRef = 6784811D2A1AFE77004E01C3 /* SwiftMsgPack */; };
+		678481202A1B29B9004E01C3 /* CarThingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6784811F2A1B29B9004E01C3 /* CarThingProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,9 @@
 		678481052A18671E004E01C3 /* cartunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cartunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		678481092A18671E004E01C3 /* cartunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartunesUITests.swift; sourceTree = "<group>"; };
 		6784810B2A18671E004E01C3 /* cartunesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartunesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		678481182A186795004E01C3 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		6784811A2A19A884004E01C3 /* CarThingSDP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CarThingSDP.plist; sourceTree = "<group>"; };
+		6784811F2A1B29B9004E01C3 /* CarThingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarThingProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6784811E2A1AFE77004E01C3 /* SwiftMsgPack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +103,14 @@
 		678480EC2A18671D004E01C3 /* cartunes */ = {
 			isa = PBXGroup;
 			children = (
+				6784811A2A19A884004E01C3 /* CarThingSDP.plist */,
 				678480ED2A18671D004E01C3 /* cartunesApp.swift */,
 				678480EF2A18671D004E01C3 /* ContentView.swift */,
 				678480F12A18671E004E01C3 /* Assets.xcassets */,
 				678480F62A18671E004E01C3 /* cartunes.entitlements */,
 				678480F32A18671E004E01C3 /* Preview Content */,
+				678481182A186795004E01C3 /* BluetoothManager.swift */,
+				6784811F2A1B29B9004E01C3 /* CarThingProtocol.swift */,
 			);
 			path = cartunes;
 			sourceTree = "<group>";
@@ -145,6 +156,9 @@
 			dependencies = (
 			);
 			name = cartunes;
+			packageProductDependencies = (
+				6784811D2A1AFE77004E01C3 /* SwiftMsgPack */,
+			);
 			productName = cartunes;
 			productReference = 678480EA2A18671D004E01C3 /* cartunes.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 678480E12A18671D004E01C3;
+			packageReferences = (
+				6784811C2A1AFE77004E01C3 /* XCRemoteSwiftPackageReference "SwiftMsgPack" */,
+			);
 			productRefGroup = 678480EB2A18671D004E01C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6784811B2A19A884004E01C3 /* CarThingSDP.plist in Resources */,
 				678480F52A18671E004E01C3 /* Preview Assets.xcassets in Resources */,
 				678480F22A18671E004E01C3 /* Assets.xcassets in Resources */,
 			);
@@ -260,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				678480F02A18671D004E01C3 /* ContentView.swift in Sources */,
+				678481192A186795004E01C3 /* BluetoothManager.swift in Sources */,
 				678480EE2A18671D004E01C3 /* cartunesApp.swift in Sources */,
+				678481202A1B29B9004E01C3 /* CarThingProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +444,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Connect to the Car Thing";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +472,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Connect to the Car Thing";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -576,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6784811C2A1AFE77004E01C3 /* XCRemoteSwiftPackageReference "SwiftMsgPack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftMsgPack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6784811D2A1AFE77004E01C3 /* SwiftMsgPack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6784811C2A1AFE77004E01C3 /* XCRemoteSwiftPackageReference "SwiftMsgPack" */;
+			productName = SwiftMsgPack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 678480E22A18671D004E01C3 /* Project object */;
 }
